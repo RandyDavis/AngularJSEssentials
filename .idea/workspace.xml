@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dc516bcc-bfbb-479d-a2b6-f203cfd931be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/alert.html" afterPath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/alert.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html" afterPath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js" afterPath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js" />
     </list>
     <ignored path="angularJSEssentials.iws" />
@@ -29,8 +31,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="223">
-                  <caret line="49" column="79" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
+                <state relative-caret-position="253">
+                  <caret line="50" column="92" selection-start-line="50" selection-start-column="92" selection-end-line="50" selection-end-column="92" />
                   <folding />
                 </state>
               </provider>
@@ -61,8 +63,8 @@
           <file leaf-file-name="alert.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/alert.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -75,8 +77,8 @@
           <file leaf-file-name="directives.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+                <state relative-caret-position="300">
+                  <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
                   <folding>
                     <element signature="e#0#39#0" expanded="false" />
                   </folding>
@@ -110,9 +112,9 @@
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/css/app.css" />
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/app.js" />
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/controllers.js" />
-        <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/alert.html" />
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html" />
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js" />
+        <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/alert.html" />
       </list>
     </option>
   </component>
@@ -305,7 +307,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469256404566</updated>
-      <workItem from="1469256406130" duration="8653000" />
+      <workItem from="1469256406130" duration="9263000" />
     </task>
     <task id="LOCAL-00001" summary="complete Setting up the Framework;  add 01_GettingStarted directory and complete first example.">
       <created>1469335115875</created>
@@ -342,11 +344,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469344045990</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated last commit to show another way to write the scope properties in directives.js if the name of the properties are the same as the expression">
+      <created>1469344319109</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1469344319109</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8653000" />
+    <option name="totallyTimeSpent" value="9263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
@@ -381,7 +390,8 @@
     <MESSAGE value="working on Creating our own directives;  finish initial implementation but revising it each time to show how to eventually use it the best way;  Finished first part of scope showing @ sign use in a directive." />
     <MESSAGE value="Finished part of creating our own directives scope part using &quot;=&quot;" />
     <MESSAGE value="Finished part of creating our own directives scope part using &quot;&amp;&quot; and add closeAlert functionality for the example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished part of creating our own directives scope part using &quot;&amp;&quot; and add closeAlert functionality for the example" />
+    <MESSAGE value="updated last commit to show another way to write the scope properties in directives.js if the name of the properties are the same as the expression" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated last commit to show another way to write the scope properties in directives.js if the name of the properties are the same as the expression" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -438,24 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="49" column="79" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -466,10 +458,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="50" column="92" selection-start-line="50" selection-start-column="92" selection-end-line="50" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/alert.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="30">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
           <folding />
         </state>
       </provider>

@@ -16,11 +16,10 @@ parking.directive('alert', function () {
     return {
         restrict: 'E',
         scope: {
-          topic: '=topic', // topic: '=',
-          description:'=description', // description:'=',
-          close: '&close' // close: '&'
+          topic: '@'
         },
         templateUrl: "alert.html",
-        replace: true
+        replace: true,
+        transclude: true
     };
 });
