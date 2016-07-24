@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dc516bcc-bfbb-479d-a2b6-f203cfd931be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/alert.html" afterPath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/alert.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html" afterPath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/controllers.js" afterPath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js" afterPath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js" />
@@ -31,8 +32,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="283">
-                  <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+                <state relative-caret-position="223">
+                  <caret line="49" column="79" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
                   <folding />
                 </state>
               </provider>
@@ -41,20 +42,8 @@
           <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/controllers.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="directives.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+                <state relative-caret-position="45">
+                  <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
                   <folding>
                     <element signature="e#0#39#0" expanded="false" />
                   </folding>
@@ -75,8 +64,8 @@
           <file leaf-file-name="alert.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/alert.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -89,8 +78,8 @@
           <file leaf-file-name="directives.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+                <state relative-caret-position="285">
+                  <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
                   <folding>
                     <element signature="e#0#39#0" expanded="false" />
                   </folding>
@@ -123,9 +112,9 @@
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/accordionItem.html" />
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/css/app.css" />
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/app.js" />
-        <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/alert.html" />
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/controllers.js" />
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js" />
+        <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/alert.html" />
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html" />
       </list>
     </option>
@@ -319,7 +308,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469256404566</updated>
-      <workItem from="1469256406130" duration="7594000" />
+      <workItem from="1469256406130" duration="8405000" />
     </task>
     <task id="LOCAL-00001" summary="complete Setting up the Framework;  add 01_GettingStarted directory and complete first example.">
       <created>1469335115875</created>
@@ -342,15 +331,22 @@
       <option name="project" value="LOCAL" />
       <updated>1469342566901</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished part of creating our own directives scope part using &quot;=&quot;">
+      <created>1469343210837</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1469343210837</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7594000" />
+    <option name="totallyTimeSpent" value="8405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16720517" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -360,7 +356,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3328446" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3328446" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -379,7 +375,8 @@
     <MESSAGE value="complete Setting up the Framework;  add 01_GettingStarted directory and complete first example." />
     <MESSAGE value="add 02_CreatingReusableComponentsWDirectives directory; complete Refactoring Application Organization lesson;" />
     <MESSAGE value="working on Creating our own directives;  finish initial implementation but revising it each time to show how to eventually use it the best way;  Finished first part of scope showing @ sign use in a directive." />
-    <option name="LAST_COMMIT_MESSAGE" value="working on Creating our own directives;  finish initial implementation but revising it each time to show how to eventually use it the best way;  Finished first part of scope showing @ sign use in a directive." />
+    <MESSAGE value="Finished part of creating our own directives scope part using &quot;=&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished part of creating our own directives scope part using &quot;=&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -426,34 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/alert.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -464,10 +433,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/alert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+        <state relative-caret-position="223">
+          <caret line="49" column="79" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
           <folding />
         </state>
       </provider>

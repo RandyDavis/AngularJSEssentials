@@ -17,7 +17,8 @@ parking.directive('alert', function () {
         restrict: 'E',
         scope: {
           topic: '=topic',
-          description:'=description'
+          description:'=description',
+          close: '&close'
         },
         templateUrl: "alert.html",
         replace: true
