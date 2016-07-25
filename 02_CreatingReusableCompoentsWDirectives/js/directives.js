@@ -12,14 +12,33 @@
 // });
 
 // Directive via TemplateURL
-parking.directive('alert', function () {
+// parking.directive('alert', function () {
+//     return {
+//         restrict: 'E',
+//         scope: {
+//           topic: '@'
+//         },
+//         templateUrl: "alert.html",
+//         replace: true,
+//         transclude: true
+//     };
+// });
+
+// Directive via Link
+parking.directive("accordionItem", function () {
     return {
-        restrict: 'E',
+        templateUrl: "accordionItem.html",
+        restrict: "E",
         scope: {
-          topic: '@'
+            title: "@"
         },
-        templateUrl: "alert.html",
-        replace: true,
-        transclude: true
+        transclude: true,
+        link: function (scope, element, attrs, ctrl, transcludeFn) {
+            element.bind("click", function () {
+                scope.$apply(function () {
+                    scope.active = !scope.active;
+                });
+            });
+        }
     };
 });
