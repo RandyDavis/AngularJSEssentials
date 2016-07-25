@@ -38,8 +38,25 @@
     opacity: 0;
 }
 
+/*.selected {*/
+    /*background-color: #FAFAD2;*/
+/*}*/
+
 .selected {
-    background-color: #FAFAD2;
+    -webkit-transition: all 5s linear;
+    -moz-transition: all 5s linear;
+    -ms-transition: all 5s linear;
+    -o-transition: all 5s linear;
+    transition: all 5s linear;
+    background-color: #FAFAD2 !important;
+}
+
+.selected-add-class {
+    opacity: 0;
+}
+
+.selected-add-class-active {
+    opacity: 1;
 }
 
 .alert {
