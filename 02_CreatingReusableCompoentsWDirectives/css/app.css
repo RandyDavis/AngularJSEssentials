@@ -11,6 +11,19 @@
     opacity: 1;
 }
 
+.ng-leave {
+    -webkit-transition: all 5s linear;
+    -moz-transition: all 5s linear;
+    -ms-transition: all 5s linear;
+    -o-transition: all 5s linear;
+    transition: all 5s linear;
+    opacity: 1;
+}
+
+.ng-leave-active {
+    opacity: 0;
+}
+
 .selected {
     background-color: #FAFAD2;
 }
