@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc516bcc-bfbb-479d-a2b6-f203cfd931be" name="Default" comment="">
+    <list default="true" id="dc516bcc-bfbb-479d-a2b6-f203cfd931be" name="Default" comment="finish Animating ngRepeat lesson">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-animation.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js" afterPath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/css/app.css" afterPath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html" afterPath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/app.js" afterPath="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/app.js" />
     </list>
     <ignored path="angularJSEssentials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +32,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="343">
-                  <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+                <state relative-caret-position="268">
+                  <caret line="78" column="44" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -72,7 +75,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="directives.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="directives.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="397">
@@ -80,6 +83,28 @@
                   <folding>
                     <element signature="e#0#39#0" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/css/app.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -92,8 +117,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -106,14 +131,15 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/01_GettingStarted/index.html" />
-        <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/css/app.css" />
-        <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/app.js" />
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/controllers.js" />
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/alert.html" />
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/directives.html" />
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/accordionItem.html" />
-        <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html" />
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/directives.js" />
+        <option value="$PROJECT_DIR$/lib/angular-animation.min.js" />
+        <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/app.js" />
+        <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html" />
+        <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/css/app.css" />
       </list>
     </option>
   </component>
@@ -168,6 +194,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="angularJSEssentials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularJSEssentials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularJSEssentials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,7 +349,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469256404566</updated>
-      <workItem from="1469256406130" duration="11868000" />
+      <workItem from="1469256406130" duration="13127000" />
     </task>
     <task id="LOCAL-00001" summary="complete Setting up the Framework;  add 01_GettingStarted directory and complete first example.">
       <created>1469335115875</created>
@@ -374,11 +414,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469422679096</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update accordion controller when using 'require' and 'link' properties">
+      <created>1469423316720</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1469423316720</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11868000" />
+    <option name="totallyTimeSpent" value="13127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
@@ -425,21 +472,15 @@
     <MESSAGE value="add transclusion example for Creating our own directives section" />
     <MESSAGE value="finish accordionItem example using &quot;link&quot; feature" />
     <MESSAGE value="update accordion to use 'require' property but need to update controller, which i will do next commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="update accordion to use 'require' property but need to update controller, which i will do next commit" />
+    <MESSAGE value="update accordion controller when using 'require' and 'link' properties" />
+    <MESSAGE value="finish Animating ngRepeat lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish Animating ngRepeat lesson" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01_GettingStarted/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-71">
@@ -461,16 +502,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -508,11 +539,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html">
+    <entry file="file://$PROJECT_DIR$/lib/angular-animation.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="370">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -523,6 +556,32 @@
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="78" column="44" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
