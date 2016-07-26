@@ -23,7 +23,7 @@
                 <td>
                     <input type="checkbox" ng-model="car.selected" />
                 </td>
-                <td>{{car.plate}}</td>
+                <td>{{car.plate | plate:"-"}}</td>
                 <td>{{car.color}}</td>
                 <td>{{car.entrance | date: 'dd/MM/yyyy hh:mm'}}</td>
             </tr>
@@ -61,4 +61,5 @@
 <script src="js/app.js"></script>
 <script src="js/controllers.js"></script>
 <script src="js/directives.js"></script>
+<script src="js/filters.js"></script>
 </html>

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc516bcc-bfbb-479d-a2b6-f203cfd931be" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_DataHandling/js/filters.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_DataHandling/js/controllers.js" afterPath="$PROJECT_DIR$/03_DataHandling/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_DataHandling/index.html" afterPath="$PROJECT_DIR$/03_DataHandling/index.html" />
     </list>
     <ignored path="angularJSEssentials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,22 +25,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03_DataHandling/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+            <state relative-caret-position="268">
+              <caret line="33" column="78" selection-start-line="33" selection-start-column="78" selection-end-line="33" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03_DataHandling/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filters.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03_DataHandling/js/filters.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,8 +88,9 @@
         <option value="$PROJECT_DIR$/02_CreatingReusableCompoentsWDirectives/css/app.css" />
         <option value="$PROJECT_DIR$/lib/angular-locale_pt-br.js" />
         <option value="$PROJECT_DIR$/03_DataHandling/css/app.css" />
-        <option value="$PROJECT_DIR$/03_DataHandling/index.html" />
         <option value="$PROJECT_DIR$/03_DataHandling/js/controllers.js" />
+        <option value="$PROJECT_DIR$/03_DataHandling/js/filters.js" />
+        <option value="$PROJECT_DIR$/03_DataHandling/index.html" />
       </list>
     </option>
   </component>
@@ -282,7 +296,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469256404566</updated>
-      <workItem from="1469256406130" duration="17653000" />
+      <workItem from="1469256406130" duration="18450000" />
     </task>
     <task id="LOCAL-00001" summary="complete Setting up the Framework;  add 01_GettingStarted directory and complete first example.">
       <created>1469335115875</created>
@@ -403,11 +417,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469502952437</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="complete 'Using filters in other places' subsection;">
+      <created>1469507199393</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1469507199393</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17653000" />
+    <option name="totallyTimeSpent" value="18450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
@@ -462,7 +483,8 @@
     <MESSAGE value="create 03_DataHandling directory section and import code from section02 to continue working off" />
     <MESSAGE value="complete 'filter' subsection" />
     <MESSAGE value="complete 'orderBy' subsection; corrected typo in date filter for entrance" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete 'orderBy' subsection; corrected typo in date filter for entrance" />
+    <MESSAGE value="complete 'Using filters in other places' subsection;" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete 'Using filters in other places' subsection;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -597,18 +619,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_DataHandling/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_DataHandling/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_DataHandling/js/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_DataHandling/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="33" column="78" selection-start-line="33" selection-start-column="78" selection-end-line="33" selection-end-column="78" />
           <folding />
         </state>
       </provider>
