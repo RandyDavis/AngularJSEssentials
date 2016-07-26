@@ -1,8 +1,8 @@
 /**
  * Created by randy on 7/24/16.
  */
-parking.controller("parkingCtrl", ["$scope", function ($scope) {
-    $scope.appTitle = "[Packt] Parking";
+parking.controller("parkingCtrl", ["$scope","$filter", function ($scope, $filter) {
+    $scope.appTitle = $filter("uppercase")("[Packt] Parking");
     $scope.showAlert = true;
     $scope.alertTopic = "Something went wrong!";
     $scope.alertDescription = "You must inform the plate and the color of the car!";
