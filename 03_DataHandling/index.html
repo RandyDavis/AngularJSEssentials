@@ -13,19 +13,19 @@
             <thead>
                 <tr>
                     <th></th>
-                    <th>Plate</th>
-                    <th>Color</th>
-                    <th>Entrance</th>
+                    <th><a href="" ng-click="field = 'plate'; order = !order">Plate</a></th>
+                    <th><a href="" ng-click="field = 'color'; order = !order">Color</a></th>
+                    <th><a href="" ng-click="field = 'entrance'; order = !order">Entrance</a></th>
                 </tr>
             </thead>
             <tbody>
-            <tr ng-class="{selected: car.selected}" ng-repeat="car in cars | filter:criteria">
+            <tr ng-class="{selected: car.selected}" ng-repeat="car in cars | filter:criteria | orderBy:field:order">
                 <td>
                     <input type="checkbox" ng-model="car.selected" />
                 </td>
                 <td>{{car.plate}}</td>
                 <td>{{car.color}}</td>
-                <td>{{car.entrance | date: 'dd/MM/yyy hh:mm'}}</td>
+                <td>{{car.entrance | date: 'dd/MM/yyyy hh:mm'}}</td>
             </tr>
             </tbody>
         </table>
