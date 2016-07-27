@@ -41,7 +41,20 @@
         </button>
     </form>
 
-    <alert ng-show="carForm.plateField.$dirty && carForm.plateField.$invalid" topic="Something went wrong!">The plate is invalid!</alert>
+    <alert ng-show="carForm.plateField.$dirty && carForm.plateField.$invalid" topic="Something went wrong!">
+        <span ng-show="carForm.plateField.$error.required">
+            You must inform the plate of the car!
+        </span>
+        <span ng-show="carForm.plateField.$error.minlength">
+            The plate must have at least 6 characters!
+        </span>
+        <span ng-show="carForm.plateField.$error.maxlength">
+            The plate must have at most 10 characters!
+        </span>
+        <span ng-show="carForm.plateField.$error.pattern">
+            The plate must start with non-digits, followed by 4 to 8 numbers!
+        </span>
+    </alert>
 
     <!-- Used for 'require' directive -->
     <accordion>
