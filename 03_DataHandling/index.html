@@ -41,7 +41,7 @@
         </button>
     </form>
 
-    <alert ng-show="carForm.plateField.$invalid" topic="Something went wrong!">The plate is invalid!</alert>
+    <alert ng-show="carForm.plateField.$dirty && carForm.plateField.$invalid" topic="Something went wrong!">The plate is invalid!</alert>
 
     <!-- Used for 'require' directive -->
     <accordion>
