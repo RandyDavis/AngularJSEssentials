@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc516bcc-bfbb-479d-a2b6-f203cfd931be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04_DependencyInjectionAndServices/js/config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_DependencyInjectionAndServices/js/services.js" afterPath="$PROJECT_DIR$/04_DependencyInjectionAndServices/js/services.js" />
     </list>
     <ignored path="angularJSEssentials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -295,7 +293,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469256404566</updated>
-      <workItem from="1469256406130" duration="25909000" />
+      <workItem from="1469256406130" duration="25928000" />
     </task>
     <task id="LOCAL-00001" summary="complete Setting up the Framework;  add 01_GettingStarted directory and complete first example.">
       <created>1469335115875</created>
@@ -472,11 +470,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469856101622</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="complete &quot;Creating Service with the provider&quot; lesson;">
+      <created>1469856531210</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1469856531210</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25909000" />
+    <option name="totallyTimeSpent" value="25928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
@@ -514,7 +519,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="complete Setting up the Framework;  add 01_GettingStarted directory and complete first example." />
     <MESSAGE value="add 02_CreatingReusableComponentsWDirectives directory; complete Refactoring Application Organization lesson;" />
     <MESSAGE value="working on Creating our own directives;  finish initial implementation but revising it each time to show how to eventually use it the best way;  Finished first part of scope showing @ sign use in a directive." />
     <MESSAGE value="Finished part of creating our own directives scope part using &quot;=&quot;" />
@@ -539,7 +543,8 @@
     <MESSAGE value="create 04_DependencyInjectionAndServices directory containing the previous section's code for use in this lesson" />
     <MESSAGE value="complete &quot;Creating Service with the factory&quot; lesson;" />
     <MESSAGE value="complete &quot;Creating Service with the service&quot; lesson;" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete &quot;Creating Service with the service&quot; lesson;" />
+    <MESSAGE value="complete &quot;Creating Service with the provider&quot; lesson;" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete &quot;Creating Service with the provider&quot; lesson;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
