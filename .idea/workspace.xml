@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc516bcc-bfbb-479d-a2b6-f203cfd931be" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04_DependencyInjectionAndServices/js/config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_DependencyInjectionAndServices/js/services.js" afterPath="$PROJECT_DIR$/04_DependencyInjectionAndServices/js/services.js" />
     </list>
@@ -47,11 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04_DependencyInjectionAndServices/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+            <state relative-caret-position="322">
+              <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_DependencyInjectionAndServices/js/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -108,6 +121,7 @@
         <option value="$PROJECT_DIR$/04_DependencyInjectionAndServices/js/controllers.js" />
         <option value="$PROJECT_DIR$/04_DependencyInjectionAndServices/js/constants.js" />
         <option value="$PROJECT_DIR$/04_DependencyInjectionAndServices/js/services.js" />
+        <option value="$PROJECT_DIR$/04_DependencyInjectionAndServices/js/config.js" />
       </list>
     </option>
   </component>
@@ -281,7 +295,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469256404566</updated>
-      <workItem from="1469256406130" duration="25482000" />
+      <workItem from="1469256406130" duration="25909000" />
     </task>
     <task id="LOCAL-00001" summary="complete Setting up the Framework;  add 01_GettingStarted directory and complete first example.">
       <created>1469335115875</created>
@@ -451,11 +465,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469855827792</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="complete &quot;Creating Service with the service&quot; lesson;">
+      <created>1469856101622</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1469856101622</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25482000" />
+    <option name="totallyTimeSpent" value="25909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
@@ -517,7 +538,8 @@
     <MESSAGE value="complete &quot;The $error object&quot; subsection;  Finish Data Handling section as a whole." />
     <MESSAGE value="create 04_DependencyInjectionAndServices directory containing the previous section's code for use in this lesson" />
     <MESSAGE value="complete &quot;Creating Service with the factory&quot; lesson;" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete &quot;Creating Service with the factory&quot; lesson;" />
+    <MESSAGE value="complete &quot;Creating Service with the service&quot; lesson;" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete &quot;Creating Service with the service&quot; lesson;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -722,8 +744,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04_DependencyInjectionAndServices/js/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        <state relative-caret-position="322">
+          <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_DependencyInjectionAndServices/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
